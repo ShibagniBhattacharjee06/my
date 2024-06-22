@@ -429,4 +429,10 @@ ul.skills-list li {
 .thumbnail-content .btn:hover {
     background-color: #f9620b;
 }
+@media only screen and (max-width: 768px) {
+    #projects {
+        grid-template-columns: 1fr;
+    }
+}
+
 
